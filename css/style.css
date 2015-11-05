@@ -39,10 +39,10 @@ div {
   }
 
 .logo {
-       padding: 0px 15px;
-       height: 4.375rem;
-       margin-left: 34px;
-       margin-right: 300px;
+  padding: 0px 15px;
+  height: 4.375rem;
+  margin-left: 50px;
+  margin-right: 250px;
        }
 
 .top-navigation .links {
@@ -113,5 +113,26 @@ div {
 .big-button:hover {
   cursor: pointer;
   background-color: #d9400e;
+}
 
+
+
+
+.cases .content {
+  text-align: center;
+  padding: none;
+  margin-top: 7.875rem;
+  color: #1d1e21;
+}
+
+.cases {
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 5rem;
+}
+
+.cases h2 {
+  font-size: 2.75rem;
+  margin: 1.625rem 0 3.125rem;
+  font-weight: 300;
 }
