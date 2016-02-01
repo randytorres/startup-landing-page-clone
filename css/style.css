@@ -171,7 +171,7 @@ div {
   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   display: -ms-flexbox;      /* TWEENER - IE 10 */
   display: -webkit-flex;     /* NEW - Chrome */
-  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  /*display: flex;             !* NEW, Spec - Opera 12.1, Firefox 20+ *!*/
   display: inline-block;
   }
 
@@ -179,6 +179,10 @@ div {
   font-weight: 400;
   font-size: 1.563rem;
   margin-top: 35px;
+}
+
+.center {
+  margin-left: 280px;
 }
 
 .cases .devices p {
